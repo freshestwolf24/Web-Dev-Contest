@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: white;
+  width: 100%; 
+}
+
+.navbar{
+  background-color: #54e8e9;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.brandtitle{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.25em;
+  margin: 5px;
+  color: black;
+  transition: ease-in .5s;
+}
+
+.brandtitle:hover{
+  transform: translateY(-3px);
+  text-shadow: 0px 5px 5px yellow;
+}
+
+.navlinks{
+  font-weight: 100;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.navlinks ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navlinks li{
+  padding: 1.5vw;
+}
+
+.navlinks li a{
+  color: #333333;
+  padding: 1.5vw;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.navlinks li:hover{
+  background-color: white;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.image-text{
+  position: absolute;
+  font-size: 8vw;
+  top: 25%;
+  left: 2%;
+}
+
+main{
+  text-align: center;
+}
+
+.about-section h1{
+  font-size: 6vw;
+  font-weight: 300;
+}
+
+.about-section p{
+  font-size: 3vw;
+  font-weight: 100;
+  margin: 4vw;
+}

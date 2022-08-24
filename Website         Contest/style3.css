@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #54e8e9;
+  width: 100%; 
+}
+
+.navbar{
+  background-color: #54e8e9;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.brandtitle{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.25em;
+  margin: 5px;
+  color: black;
+  transition: ease-in .5s;
+}
+
+.brandtitle:hover{
+  transform: translateY(-3px);
+  text-shadow: 0px 5px 5px yellow;
+}
+
+.navlinks{
+  font-weight: 100;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.navlinks ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  text-align: center;
+}
+
+.navlinks li{
+  padding: 1.5vw;
+}
+
+.navlinks li a{
+  color: #333333;
+  padding: 1.5vw;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.navlinks li:hover{
+  background-color: white;
+}
+
+.contact-section{
+  background-size: cover;
+  padding: 40px 0;
+  height: 90vh;
+}
+
+.header{
+  text-align: center;
+  color: black;
+}
+
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.contact-form-text:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+textarea.contact-form-text{
+  resize: none;
+}
+
+.contact-form-btn{
+  float: right;
+  padding: 12px 50px;
+}
